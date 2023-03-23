@@ -1,0 +1,20 @@
+{{> navbar}}
+
+
+<div>
+  {{#each Posts as |post| }}
+  <div>
+    <div>
+      <p>{{post.title}}</p>
+      <a href={{post.link}}>View Post</a>
+    </div>
+    <div>
+      <ul>
+        <li>Body: {{post.body}}</li>
+        <li>Created Date: {{post.createdDate}}</li>
+        <li>User ID: {{post.userId}}</li>
+      </ul>
+    </div>
+  </div>
+  {{/each}}
+</div>

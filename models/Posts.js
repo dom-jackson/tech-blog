@@ -1,14 +1,10 @@
 const { Model, DataTypes } = require('sequelize');
-const bcrypt = require('bcrypt');
+
 const sequelize = require('../config/connection');
 
-class User extends Model {
-  async checkPassword(loginPw) {
-    return await bcrypt.compare(loginPw, this.password);
-  }
-}
+class Posts extends Model {}
 
-User.init(
+Posts.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -16,15 +12,29 @@ User.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    username: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    password: {
+    body: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [6],
+    },
+    createdAt: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+      allowNull: false,
+    },
+    updatedAt: {
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
+      allowNull: false,
+    },
+    userId: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
       },
     },
   },
@@ -33,14 +43,8 @@ User.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'user',
-    hooks: {
-      beforeCreate: async (user) => {
-        const hashedPassword = await bcrypt.hash(user.password, 10);
-        user.password = hashedPassword;
-      },
-    },
+    modelName: 'posts',
   }
 );
 
-module.exports = User;
+module.exports = Posts;

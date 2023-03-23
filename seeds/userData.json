@@ -1,29 +1,24 @@
 [
     {
-      "name": "Lynda",
-      "email": "lynda@hotmail.com",
-      "password": "password12345"
+      "username": "Lynda",
+      "password": "password1"
     },
     {
-      "name": "Ian",
-      "email": "ian@gmail.com",
-      "password": "password12345"
+      "username": "Ian",
+      "password": "password2"
     },
     {
-      "name": "Luke",
-      "email": "luke@aol.com",
-      "password": "password12345"
+      "username": "Luke",
+      "password": "password3"
     },
     {
-      "name": "Colleen",
-      "email": "colleen@msn.com",
-      "password": "password12345"
+      "username": "Colleen",
+      "password": "password4"
     },
     {
-      "name": "Peter",
-      "email": "peter@yahoo.com",
-      "password": "password12345"
+      "username": "Peter",
+      "password": "password5"
     }
-  ]
+]
   
   

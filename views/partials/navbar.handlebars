@@ -1,0 +1,19 @@
+<nav class='navbar'>
+    <div class="heading">
+        <h1>The Tech Blog</h1>
+    </div>
+  <!-- navbar links -->
+  <div class='navbar-menu'>
+    <div class='navbar-start'>
+      <a class='navbar-item' href='#'>Home</a>
+      <a class='navbar-item' href='#'>Dashboard</a>
+    </div>
+    <div class='navbar-end'>
+      {{#if logged_in}}
+        <a class='navbar-item' href='#' onclick='logout()'>Logout</a>
+      {{else}}
+        <a class='navbar-item' href='#'>Login</a>
+      {{/if}}
+    </div>
+  </div>
+</nav>

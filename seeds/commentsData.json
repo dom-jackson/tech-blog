@@ -1,0 +1,41 @@
+[
+    {
+        "body": "I completely agree! Writing clean code is essential for building maintainable software.",
+        "createdAt": "2022-05-11T10:30:00.000Z",
+        "updatedAt": "2022-05-11T10:30:00.000Z",
+        "postId": 1,
+        "userId": 2
+    },
+    {
+        "body": "This post on machine learning was very helpful. Thanks for sharing!",
+        "createdAt": "2022-06-20T14:45:00.000Z",
+        "updatedAt": "2022-06-20T14:45:00.000Z",
+        "postId": 2,
+        "userId": 3
+    },
+    {
+        "body": "I had never heard of this library before, but it looks like it could be very useful. Thanks for the recommendation!",
+        "createdAt": "2022-09-01T09:15:00.000Z",
+        "updatedAt": "2022-09-01T09:15:00.000Z",
+        "postId": 3,
+        "userId": 4
+    },
+    {    "body": "This is really interesting, I'll definitely try this out!",    
+        "createdAt": "2022-09-02T09:10:00.000Z",    
+        "updatedAt": "2022-09-02T09:10:00.000Z",    
+        "postId": 4,    
+        "userId": 5  
+    },  
+    {    "body": "I appreciate the in-depth explanation, thanks for sharing!",    
+        "createdAt": "2022-10-15T12:30:00.000Z",    
+        "updatedAt": "2022-10-15T12:30:00.000Z",    
+        "postId": 5,    
+        "userId": 1  
+    },  
+    {    "body": "I had no idea this was possible, thanks for the tip!",    
+        "createdAt": "2022-11-25T17:00:00.000Z",    
+        "updatedAt": "2022-11-25T17:00:00.000Z",    
+        "postId": 1,    
+        "userId": 5  
+    }
+]

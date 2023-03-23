@@ -1,0 +1,37 @@
+[
+    {
+        "title": "10 Tips for Writing Clean Code",
+        "body": "Clean code is essential for any software project. Here are some tips to help you write code that's easy to read and maintain.",
+        "createdAt": "2022-05-10T15:30:00.000Z",
+        "updatedAt": "2022-05-10T15:30:00.000Z",
+        "userId": 1
+      },
+      {
+        "title": "The Future of Artificial Intelligence",
+        "body": "Artificial intelligence (AI) is rapidly advancing, and it's poised to transform many aspects of our lives.",
+        "createdAt": "2022-06-15T12:00:00.000Z",
+        "updatedAt": "2022-06-15T12:00:00.000Z",
+        "userId": 2
+      },
+      {
+        "title": "The Rise of No-Code Tools",
+        "body": "No-code tools are making it easier than ever for people to build software applications without having to write any code. From web applications to mobile apps, here are some of the reasons why no-code tools are gaining popularity.",
+        "createdAt": "2022-07-20T09:30:00.000Z",
+        "updatedAt": "2022-07-20T09:30:00.000Z",
+        "userId": 3
+      },
+      {
+        "title": "The Importance of Accessibility in Design",
+        "body": "Accessibility is an important consideration for any design project. By making your designs accessible to everyone, you can ensure that you're not excluding people with disabilities.",
+        "createdAt": "2022-08-25T14:45:00.000Z",
+        "updatedAt": "2022-08-25T14:45:00.000Z",
+        "userId": 4
+      },
+      {
+        "title": "5 Common React Mistakes and How to Avoid Them",
+        "body": "React is a popular JavaScript library for building user interfaces, but it's not always easy to use correctly. Here are some common mistakes that developers make when using React, and how to avoid them.",
+        "createdAt": "2022-10-05T11:00:00.000Z",
+        "updatedAt": "2022-10-05T11:00:00.000Z",
+        "userId": 5
+    }
+]
